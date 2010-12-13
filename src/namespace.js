@@ -4,8 +4,11 @@
  *  @author Hideaki Tanabe <http://blog.kaihatsubu.com>
  *
  *  USAGE:
- *  Namespace("com.kaihatsubu.utils");
- *  com.kaihatsubu.utils.arrayUtil = {};
+ *  var module = Namespace("com.kaihatsubu.utils");
+ *  module === com.kaihatsubu.utils; //true
+ *  com.kaihatsubu.utils.arrayUtil = {
+ *    //...
+ *  };
  *  
  *  @param ns namespace string
  *  @return defined namespace
